@@ -244,15 +244,16 @@
     sprite: Objects/Specific/Chemistry/beaker_bluespace.rsi
     layers:
       - state: beakerbluespace
+  - type: ReverseEngineering # Nyano
+    difficulty: 4
+    recipes:
+      - BluespaceBeaker
   - type: SolutionContainerManager
     solutions:
       beaker:
         maxVol: 1000
         canMix: true
-  - type: ReverseEngineering # Nyano
-    difficulty: 4
-    recipes:
-      - BluespaceBeaker
+
 
 - type: entity
   name: dropper
