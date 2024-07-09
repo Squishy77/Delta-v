@@ -369,6 +369,7 @@
       - OreBagOfHolding
       - DeviceQuantumSpinInverter
       - RCDAmmo # DeltaV
+      - ClothingShoesBootsMagSyndieReverseEngineered # DeltaV
   - type: EmagLatheRecipes
     emagDynamicRecipes:
       - ExplosivePayload
@@ -380,6 +381,7 @@
       - WeaponEnergyGunMini   # DeltaV - Miniature Energy Gun
       - WeaponEnergyGunPistol # DeltaV - PDW-9 Energy Pistol
       - WeaponGunLaserCarbineAutomatic # DeltaV - IK-60 Laser Carbine
+      - EncryptionKeySyndie #DeltaV - Blood red key tech disk
 
 - type: entity
   id: ProtolatheHyperConvection
@@ -649,6 +651,8 @@
   # End Nyano additions
   # Begin DeltaV additions
     - JetpackVoid
+    - ClothingOuterHardsuitSyndieEliteReverseEngineered
+    - ClothingOuterHardsuitSyndieMedicReverseEngineered
   # End DeltaV additions
   - type: MaterialStorage
     whitelist:
