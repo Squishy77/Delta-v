@@ -1,0 +1,31 @@
+- type: entity
+  parent: ReverseEngineeringMachine
+  id: ExperimentalReverseEngineeringMachine
+  name: experimental reverse engineering machine
+  description: An new stable reverse engineering prototype. It is capable of reversing-the-enginering at extreme rates.
+  components:
+  - type: Machine
+    board: ReverseEngineeringExperimentalCircuitboard
+  - type: Sprite
+    sprite: DeltaV/Structures/Machines/reverse_engineering.rsi
+    snapCardinals: true
+    layers:
+    - state: open
+      map: ["open"]
+    - state: unlit
+      shader: unshaded
+      map: ["enum.PowerDeviceVisualLayers.Powered"]
+    noRot: true
+  - type: GenericVisualizer
+    visuals:
+      enum.PowerDeviceVisuals.Powered:
+        enum.PowerDeviceVisualLayers.Powered:
+          True: { visible: true }
+          False: { visible: false }
+      enum.ReverseEngineeringVisuals.ChamberOpen:
+        open:
+          True: { state: open }
+          False: { state: closed }
+  - type: ReverseEngineeringMachine # The numbers below are numbers with bluespace parts had back in nyano days.
+    scanBonus: 4 # Basic scanning power is 1
+    dangerAversionScore: 4 # The higher the number, lower the chance of the item inside being destroyed while safety is off.
