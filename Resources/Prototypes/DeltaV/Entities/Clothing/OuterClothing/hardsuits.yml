@@ -188,9 +188,9 @@
   description: A heavily armored and agile advanced hardsuit specifically designed for field medic operations. Now with Nanotrasen approval.
   components:
   - type: Sprite
-    sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Bluekies/SA-124_medical_hardsuit.rsi
+    sprite: Resources/Textures/DeltaV/Clothing/OuterClothing/Hardsuits/Combat/Bluekies/SA-124_medical_hardsuit.rsi
   - type: Clothing
-    sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Bluekies/SA-124_medical_hardsuit.rsi
+    sprite: Resources/Textures/DeltaV/Clothing/OuterClothing/Hardsuits/Combat/Bluekies/SA-124_medical_hardsuit.rsi
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHelmetHardsuitSyndieMedicReverseEngineered
   - type: ReverseEngineering
