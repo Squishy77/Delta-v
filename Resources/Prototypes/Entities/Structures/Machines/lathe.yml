@@ -369,6 +369,7 @@
       - OreBagOfHolding
       - DeviceQuantumSpinInverter
       - RCDAmmo # DeltaV
+      - RCD
       - ClothingShoesBootsMagSyndieReverseEngineered # DeltaV
   - type: EmagLatheRecipes
     emagDynamicRecipes:
