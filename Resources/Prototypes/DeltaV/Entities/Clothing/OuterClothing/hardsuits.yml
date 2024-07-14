@@ -206,7 +206,7 @@
   description: A reversed engineered version of the elite version of the blood-red hardsuit, with improved mobility and fireproofing. Property of Nanotrasen now.
   components:
   - type: Sprite
-    sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/Bluekies/SA-125_elite_hardsuit.rsi
+    sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/Bluekies/SA-125_elite_hardsuit.rsi/inhand-left.png
   - type: Clothing
     sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/Bluekies/SA-125_elite_hardsuit.rsi
   - type: ToggleableClothing
