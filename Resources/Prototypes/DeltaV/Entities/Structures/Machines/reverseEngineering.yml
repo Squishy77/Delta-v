@@ -7,7 +7,7 @@
   - type: Machine
     board: ReverseEngineeringExperimentalCircuitboard
   - type: Sprite
-    sprite: DeltaV/Entities/Structures/Machines/reverseEngineering.yml
+    sprite: DeltaV/Structures/Machines/reverse_engineering.rsi
     snapCardinals: true
     layers:
     - state: open
